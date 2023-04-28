@@ -178,10 +178,6 @@ async def caption_generate(data: Img):
     }
 
 
-# Configuring the server host and port
-if __name__ == '__main__':
-    uvicorn.run(app, port=8080)
-
 
 
 
